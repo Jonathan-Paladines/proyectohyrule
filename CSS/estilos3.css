@@ -1,0 +1,221 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: darkolivegreen;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+        
+}
+
+/*Estilos Globales*/
+.contenedor{
+    width: 80%;
+    margin:auto;
+    overflow:visible;
+}
+
+.contenedore{
+    min-height: 500px
+    width: 80%;
+    margin:auto;
+    overflow:visible;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+    color:#003333;
+}
+
+.boton1{
+    height:38px;
+    background: #1F9450;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    
+}
+
+/*Estilos para encabezados*/
+
+}
+
+.header{
+	background-color: #FF3;
+	color: white;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid#1293d4;
+	height: 150px;
+	width: 80%;
+    
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+}
+
+header #marca{
+    float:left;
+    
+}
+
+header #marca h1{
+    margin:0;
+    
+}
+
+header nav{
+    float:right;
+    margin-top: 10px;
+    
+}
+
+header .resaltado{
+    color: greenyellow;
+    font-weight: bold;
+}
+
+header .actual{
+    color: cadetblue;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: bisque;
+    font-weight: bold;
+}
+
+/*Clase parrafo*/
+#parrafo{
+    min-height: 190px;
+    width: 100%;
+    background-image: url("../Img/94-541755.jpg");
+    text-align: justify;
+    text-decoration-color: #fff;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+/*Cabecera con imagen*/
+
+#cabecera{
+    min-height: 800px;
+    background-image: url("../Img/94-541755.jpg");
+    text-align: center;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#cabecera h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+        
+}
+
+#cabecera p{
+    font-size: 20px;
+}
+
+#boletin{
+    padding: 15px;
+    color: white;
+    background: #24282b;
+
+}
+
+#boletin h1{
+    float: right;
+}
+
+#boletin form{
+    float: right;
+    margin-top: 15px;
+}
+
+#boletin input{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    
+}
+
+/*Estilos para los artículos*/
+
+#articulos{
+    margin-top: 20px;
+    float: left;
+    width: auto;
+    text-align: justify;
+    color: #ECF82C;
+}
+
+h3{
+    color:#44EBF3;
+    text-align: center;
+}
+
+.nav{
+    float:left;
+    width:180px;
+    height: 660px;
+    background-color:#366F39;
+    background-image: url("../Img/banner vertical menu.png"); 
+}
+
+.detalle{
+    float:none;
+    text-align:justify;
+    background-image: url("../Img/94-541755.jpg");
+    width: 100%;
+    padding: 10px;
+    text-decoration-color: #ECF82C;
+}
+
+#cajas .caja img{
+    width: 100px;
+}
+
+/*footer o pie de página*/
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: yellow;
+    background-color:darkgreen;
+    text-align: center;
+    clear: both;
+    
+}
+
+.menus{
+    display:inline-block;
+    width: 95%;
+    border: 1px solid lightblue;
+    padding: 15px 0px;
+    color:blue;
+    text-align: center;
+
+
+}
+
+

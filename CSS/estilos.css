@@ -1,0 +1,223 @@
+body{
+	padding: 80px;
+	margin: 5px;
+	background-color: #2E7D32;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+        
+}
+
+/*Estilos Globales*/
+.contenedor{
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
+    text-decoration-style: none;
+}
+ 
+ .contenedor p{
+    font-size: 12px;
+    font-style: bold;
+    color:#E0F2F1;
+    text-align: justify;
+
+
+ }
+
+ .contenedor a{
+    font-size: 15px;
+    font-style: bold, italic;
+    color: #E0F2F1;
+    align-content: center;
+ }
+
+.contenedore{
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
+    text-decoration-color: #F4FA58;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+.boton1{
+    height:38px;
+    background: #1F9450;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    
+}
+
+/*Estilos para encabezados*/
+
+}
+
+.header{
+	background-color: #FF3;
+	color: white;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid#1293d4;
+	height: 150px;
+	width: 80%;
+    
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+}
+
+header #marca{
+    float:left;
+    
+}
+
+header #marca h1{
+    margin:0;
+    
+}
+
+header nav{
+    float:right;
+    margin-top: 10px;
+    
+}
+
+header .resaltado{
+    color: greenyellow;
+    font-weight: bold;
+}
+
+header .actual{
+    color: cadetblue;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: bisque;
+    font-weight: bold;
+}
+
+/*Clase parrafo*/
+#parrafo{
+    min-height: 400px;
+    background-image: url("../Img/triforce-legend-of-zelda-t-shirts-banner.jpeg");
+    text-align: center;
+    color: aliceblue;
+    background-repeat: repeat;
+    background-size: 150px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    color: pink
+}
+
+
+
+/*Cabecera con imagen*/
+
+#cabecera{
+    min-height: 400px;
+    background-image: url("../Img/2013-01-31_00003.jpg");
+    text-align: center;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#cabecera h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+        
+}
+
+#cabecera p{
+    font-size: 20px;
+}
+
+#boletin{
+    padding: 15px;
+    color: white;
+    background: #24282b;
+
+}
+
+#boletin h1{
+    float: right;
+}
+
+#boletin form{
+    float: right;
+    margin-top: 15px;
+}
+
+#boletin input{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    
+}
+
+/*Estilos para las cajas creadas*/
+
+#cajas{
+    margin-top: 20px;
+    float: left;
+    width: 220px;
+    padding-left:25px;
+    padding-top: 55px;
+    padding-right: 25px;
+
+    border: 1px;
+    border-style: outset;
+    margin-left: 5%;
+    margin-right: 2%;
+    background-color: #006064;
+    border-radius: 35px 20px 35px 20px;
+    height: 290px;
+    box-shadow: 5px 10px 20px #1f1e1e; 
+}
+
+#termo{
+    min-height: 385px;
+
+}
+
+#cajas.caja{
+    float:center;
+    text-align:center;
+    width: 30%;
+    padding: 9px;
+}
+
+#cajas .caja img{
+    width: 110px;
+    align-items: center;
+}
+
+/*footer o pie de página*/
+footer{
+    padding: 15px;
+    margin-top: 20px;
+    color: yellow;
+    background-color:#1B5E20;
+    text-align: center;
+    clear: both;
+    
+}
